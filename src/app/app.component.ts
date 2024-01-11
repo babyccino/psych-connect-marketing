@@ -18,7 +18,7 @@ import { initFlowbite } from 'flowbite';
   template: ` <router-outlet></router-outlet> `,
 })
 export class AppComponent implements OnInit {
-  constructor(@Inject(PLATFORM_ID) private platformId) {}
+  constructor(@Inject(PLATFORM_ID) private platformId: Object) {}
 
   ngOnInit(): void {
     if (!isPlatformServer(this.platformId)) initFlowbite();
