@@ -42,5 +42,9 @@ testem.log
 .DS_Store
 Thumbs.db
 
+# git
+.gitignore
+.prettierignore
+
 /Other files
 src/assets

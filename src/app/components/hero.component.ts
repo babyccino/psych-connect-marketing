@@ -7,38 +7,38 @@ import { MatIconModule } from '@angular/material/icon';
   imports: [MatIconModule],
   template: `
     <div
-      class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
+      class="mx-auto max-w-screen-xl px-4 py-8 text-center lg:px-12 lg:py-16">
       <h1
-        class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white mt-14">
+        class="mb-4 mt-14 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
         We invest in the world’s potential
       </h1>
       <p
-        class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
+        class="mb-8 text-lg font-normal text-gray-500 sm:px-16 lg:text-xl xl:px-48 dark:text-gray-400">
         Here at Flowbite we focus on markets where technology, innovation, and
         capital can unlock long-term value and drive economic growth.
       </p>
       <div
-        class="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
+        class="mb-8 flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-x-4 sm:space-y-0 lg:mb-16">
         <a
           href="#"
-          class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900 shadow-neue">
+          class="shadow-neue mr-3 inline-flex items-center justify-center rounded-lg bg-blue-700 px-5 py-3 text-center text-base font-medium text-white hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
           Get started
-          <mat-icon class="w-5 h-5 ml-2 -mr-1"> arrow_forward</mat-icon>
+          <mat-icon class="-mr-1 ml-2 h-5 w-5"> arrow_forward</mat-icon>
         </a>
         <a
           href="#"
-          class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800 shadow-neue">
+          class="shadow-neue inline-flex items-center justify-center rounded-lg border border-gray-300 px-5 py-3 text-center text-base font-medium text-gray-900 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-800">
           Speak to Sales
         </a>
       </div>
       <div
-        class="px-4 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36">
-        <span class="font-semibold text-gray-400 uppercase">FEATURED IN</span>
+        class="mx-auto px-4 text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36">
+        <span class="font-semibold uppercase text-gray-400">FEATURED IN</span>
         <div
-          class="flex flex-wrap justify-center items-center mt-8 text-gray-500 sm:justify-between">
+          class="mt-8 flex flex-wrap items-center justify-center text-gray-500 sm:justify-between">
           <a
             href="#"
-            class="mr-5 mb-5 lg:mb-0 hover:text-gray-800 dark:hover:text-gray-400">
+            class="mb-5 mr-5 hover:text-gray-800 lg:mb-0 dark:hover:text-gray-400">
             <svg
               class="h-8"
               viewBox="0 0 132 29"
@@ -75,7 +75,7 @@ import { MatIconModule } from '@angular/material/icon';
           </a>
           <a
             href="#"
-            class="mr-5 mb-5 lg:mb-0 hover:text-gray-800 dark:hover:text-gray-400">
+            class="mb-5 mr-5 hover:text-gray-800 lg:mb-0 dark:hover:text-gray-400">
             <svg
               class="h-11"
               viewBox="0 0 208 42"
@@ -94,7 +94,7 @@ import { MatIconModule } from '@angular/material/icon';
           </a>
           <a
             href="#"
-            class="mr-5 mb-5 lg:mb-0 hover:text-gray-800 dark:hover:text-gray-400">
+            class="mb-5 mr-5 hover:text-gray-800 lg:mb-0 dark:hover:text-gray-400">
             <svg
               class="h-11"
               viewBox="0 0 120 41"

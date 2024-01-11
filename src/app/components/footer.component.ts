@@ -8,12 +8,12 @@ import { RouterModule } from '@angular/router';
   standalone: true,
   imports: [MatIconModule, RouterModule, CommonModule],
   template: `
-    <footer class="p-4 bg-white sm:p-6 dark:bg-gray-800 shadow-neue mt-8">
+    <footer class="shadow-neue mt-8 bg-white p-4 sm:p-6 dark:bg-gray-800">
       <div class="mx-auto max-w-screen-xl">
-        <div class="md:flex md:justify-between p-2 md:space-y-0 space-y-8">
+        <div class="space-y-8 p-2 md:flex md:justify-between md:space-y-0">
           <div class="text-gray-600 dark:text-gray-400">
             <p
-              class="uppercase font-semibold leading-relaxed text-gray-900 dark:text-white">
+              class="font-semibold uppercase leading-relaxed text-gray-900 dark:text-white">
               New York
             </p>
             <p class="mt-2">
@@ -28,10 +28,10 @@ import { RouterModule } from '@angular/router';
               company&#64;name.com
             </p>
           </div>
-          <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+          <div class="grid grid-cols-2 gap-8 sm:grid-cols-3 sm:gap-6">
             <div>
               <h2
-                class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+                class="mb-6 text-sm font-semibold uppercase text-gray-900 dark:text-white">
                 Resources
               </h2>
               <ul class="text-gray-600 dark:text-gray-400">
@@ -49,7 +49,7 @@ import { RouterModule } from '@angular/router';
             </div>
             <div>
               <h2
-                class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+                class="mb-6 text-sm font-semibold uppercase text-gray-900 dark:text-white">
                 Follow us
               </h2>
               <ul class="text-gray-600 dark:text-gray-400">
@@ -71,7 +71,7 @@ import { RouterModule } from '@angular/router';
             </div>
             <div>
               <h2
-                class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+                class="mb-6 text-sm font-semibold uppercase text-gray-900 dark:text-white">
                 Legal
               </h2>
               <ul class="text-gray-600 dark:text-gray-400">
@@ -86,17 +86,17 @@ import { RouterModule } from '@angular/router';
           </div>
         </div>
         <hr
-          class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-        <div class="relative sm:flex sm:items-center sm:justify-center sm:mb-2">
+          class="my-6 border-gray-200 sm:mx-auto lg:my-8 dark:border-gray-700" />
+        <div class="relative sm:mb-2 sm:flex sm:items-center sm:justify-center">
           <a
             href="https://flowbite.com"
-            class="flex items-center sm:absolute left-6">
+            class="left-6 flex items-center sm:absolute">
             <img
               src="https://flowbite.com/docs/images/logo.svg"
               class="mr-3 h-8"
               alt="FlowBite Logo" />
             <span
-              class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
+              class="self-center whitespace-nowrap text-2xl font-semibold dark:text-white"
               >Flowbite</span
             >
           </a>

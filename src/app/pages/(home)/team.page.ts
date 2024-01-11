@@ -8,153 +8,153 @@ import { NgOptimizedImage } from '@angular/common';
   imports: [MatIconModule, NgOptimizedImage],
   template: `
     <section class="bg-white dark:bg-gray-900">
-      <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
-        <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
+      <div class="mx-auto max-w-screen-xl px-4 py-8 lg:px-6 lg:py-16">
+        <div class="mx-auto mb-8 max-w-screen-sm text-center lg:mb-16">
           <h2
-            class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+            class="mb-4 text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white">
             Our Team
           </h2>
           <p
-            class="font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">
+            class="font-light text-gray-500 sm:text-xl lg:mb-16 dark:text-gray-400">
             Explore the whole collection of open-source web components and
             elements built with the utility classes from Tailwind
           </p>
         </div>
-        <div class="grid gap-8 mb-6 lg:mb-16 md:grid-cols-4">
+        <div class="mb-6 grid gap-8 md:grid-cols-4 lg:mb-16">
           <div
-            class="relative items-center aspect-[4/3] md:aspect-[3/4] bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700 group overflow-hidden shadow-neue">
+            class="shadow-neue group relative aspect-[4/3] items-center overflow-hidden rounded-lg bg-gray-50 shadow sm:flex md:aspect-[3/4] dark:border-gray-700 dark:bg-gray-800">
             <div>
               <img
-                class="object-cover filter brightness-75 dark:brightness-50 group-hover:scale-125 transition duration-300"
+                class="object-cover brightness-75 filter transition duration-300 group-hover:scale-125 dark:brightness-50"
                 ngSrc="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
                 priority
                 fill
                 alt="Bonnie Avatar" />
             </div>
             <div class="absolute bottom-4 left-1/2 -translate-x-1/2">
-              <h3 class="text-xl font-semibold text-white text-shadow">
+              <h3 class="text-shadow text-xl font-semibold text-white">
                 Bonnie Green
               </h3>
-              <p class="text-white text-shadow font-medium">CEO</p>
+              <p class="text-shadow font-medium text-white">CEO</p>
             </div>
           </div>
           <div
-            class="relative items-center aspect-[4/3] md:aspect-[3/4] bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700 group overflow-hidden shadow-neue">
+            class="shadow-neue group relative aspect-[4/3] items-center overflow-hidden rounded-lg bg-gray-50 shadow sm:flex md:aspect-[3/4] dark:border-gray-700 dark:bg-gray-800">
             <div>
               <img
-                class="object-cover filter brightness-75 dark:brightness-50 group-hover:scale-125 transition duration-300"
+                class="object-cover brightness-75 filter transition duration-300 group-hover:scale-125 dark:brightness-50"
                 ngSrc="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
                 priority
                 fill
                 alt="Bonnie Avatar" />
             </div>
             <div class="absolute bottom-4 left-1/2 -translate-x-1/2">
-              <h3 class="text-xl font-semibold text-white text-shadow">
+              <h3 class="text-shadow text-xl font-semibold text-white">
                 Bonnie Green
               </h3>
-              <p class="text-white text-shadow font-medium">CEO</p>
+              <p class="text-shadow font-medium text-white">CEO</p>
             </div>
           </div>
           <div
-            class="relative items-center aspect-[4/3] md:aspect-[3/4] bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700 group overflow-hidden shadow-neue">
+            class="shadow-neue group relative aspect-[4/3] items-center overflow-hidden rounded-lg bg-gray-50 shadow sm:flex md:aspect-[3/4] dark:border-gray-700 dark:bg-gray-800">
             <div>
               <img
-                class="object-cover filter brightness-75 dark:brightness-50 group-hover:scale-125 transition duration-300"
+                class="object-cover brightness-75 filter transition duration-300 group-hover:scale-125 dark:brightness-50"
                 ngSrc="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
                 priority
                 fill
                 alt="Bonnie Avatar" />
             </div>
             <div class="absolute bottom-4 left-1/2 -translate-x-1/2">
-              <h3 class="text-xl font-semibold text-white text-shadow">
+              <h3 class="text-shadow text-xl font-semibold text-white">
                 Bonnie Green
               </h3>
-              <p class="text-white text-shadow font-medium">CEO</p>
+              <p class="text-shadow font-medium text-white">CEO</p>
             </div>
           </div>
           <div
-            class="relative items-center aspect-[4/3] md:aspect-[3/4] bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700 group overflow-hidden shadow-neue">
+            class="shadow-neue group relative aspect-[4/3] items-center overflow-hidden rounded-lg bg-gray-50 shadow sm:flex md:aspect-[3/4] dark:border-gray-700 dark:bg-gray-800">
             <div>
               <img
-                class="object-cover filter brightness-75 dark:brightness-50 group-hover:scale-125 transition duration-300"
+                class="object-cover brightness-75 filter transition duration-300 group-hover:scale-125 dark:brightness-50"
                 ngSrc="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
                 priority
                 fill
                 alt="Bonnie Avatar" />
             </div>
             <div class="absolute bottom-4 left-1/2 -translate-x-1/2">
-              <h3 class="text-xl font-semibold text-white text-shadow">
+              <h3 class="text-shadow text-xl font-semibold text-white">
                 Bonnie Green
               </h3>
-              <p class="text-white text-shadow font-medium">CEO</p>
+              <p class="text-shadow font-medium text-white">CEO</p>
             </div>
           </div>
           <div
-            class="relative items-center aspect-[4/3] md:aspect-[3/4] bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700 group overflow-hidden shadow-neue">
+            class="shadow-neue group relative aspect-[4/3] items-center overflow-hidden rounded-lg bg-gray-50 shadow sm:flex md:aspect-[3/4] dark:border-gray-700 dark:bg-gray-800">
             <div>
               <img
-                class="object-cover filter brightness-75 dark:brightness-50 group-hover:scale-125 transition duration-300"
+                class="object-cover brightness-75 filter transition duration-300 group-hover:scale-125 dark:brightness-50"
                 ngSrc="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
                 priority
                 fill
                 alt="Bonnie Avatar" />
             </div>
             <div class="absolute bottom-4 left-1/2 -translate-x-1/2">
-              <h3 class="text-xl font-semibold text-white text-shadow">
+              <h3 class="text-shadow text-xl font-semibold text-white">
                 Bonnie Green
               </h3>
-              <p class="text-white text-shadow font-medium">CEO</p>
+              <p class="text-shadow font-medium text-white">CEO</p>
             </div>
           </div>
           <div
-            class="relative items-center aspect-[4/3] md:aspect-[3/4] bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700 group overflow-hidden shadow-neue">
+            class="shadow-neue group relative aspect-[4/3] items-center overflow-hidden rounded-lg bg-gray-50 shadow sm:flex md:aspect-[3/4] dark:border-gray-700 dark:bg-gray-800">
             <div>
               <img
-                class="object-cover filter brightness-75 dark:brightness-50 group-hover:scale-125 transition duration-300"
+                class="object-cover brightness-75 filter transition duration-300 group-hover:scale-125 dark:brightness-50"
                 ngSrc="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
                 priority
                 fill
                 alt="Bonnie Avatar" />
             </div>
             <div class="absolute bottom-4 left-1/2 -translate-x-1/2">
-              <h3 class="text-xl font-semibold text-white text-shadow">
+              <h3 class="text-shadow text-xl font-semibold text-white">
                 Bonnie Green
               </h3>
-              <p class="text-white text-shadow font-medium">CEO</p>
+              <p class="text-shadow font-medium text-white">CEO</p>
             </div>
           </div>
           <div
-            class="relative items-center aspect-[4/3] md:aspect-[3/4] bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700 group overflow-hidden shadow-neue">
+            class="shadow-neue group relative aspect-[4/3] items-center overflow-hidden rounded-lg bg-gray-50 shadow sm:flex md:aspect-[3/4] dark:border-gray-700 dark:bg-gray-800">
             <div>
               <img
-                class="object-cover filter brightness-75 dark:brightness-50 group-hover:scale-125 transition duration-300"
+                class="object-cover brightness-75 filter transition duration-300 group-hover:scale-125 dark:brightness-50"
                 ngSrc="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
                 priority
                 fill
                 alt="Bonnie Avatar" />
             </div>
             <div class="absolute bottom-4 left-1/2 -translate-x-1/2">
-              <h3 class="text-xl font-semibold text-white text-shadow">
+              <h3 class="text-shadow text-xl font-semibold text-white">
                 Bonnie Green
               </h3>
-              <p class="text-white text-shadow font-medium">CEO</p>
+              <p class="text-shadow font-medium text-white">CEO</p>
             </div>
           </div>
           <div
-            class="relative items-center aspect-[4/3] md:aspect-[3/4] bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700 group overflow-hidden shadow-neue">
+            class="shadow-neue group relative aspect-[4/3] items-center overflow-hidden rounded-lg bg-gray-50 shadow sm:flex md:aspect-[3/4] dark:border-gray-700 dark:bg-gray-800">
             <div>
               <img
-                class="object-cover filter brightness-75 dark:brightness-50 group-hover:scale-125 transition duration-300"
+                class="object-cover brightness-75 filter transition duration-300 group-hover:scale-125 dark:brightness-50"
                 ngSrc="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
                 priority
                 fill
                 alt="Bonnie Avatar" />
             </div>
             <div class="absolute bottom-4 left-1/2 -translate-x-1/2">
-              <h3 class="text-xl font-semibold text-white text-shadow">
+              <h3 class="text-shadow text-xl font-semibold text-white">
                 Bonnie Green
               </h3>
-              <p class="text-white text-shadow font-medium">CEO</p>
+              <p class="text-shadow font-medium text-white">CEO</p>
             </div>
           </div>
         </div>

@@ -6,13 +6,13 @@ import { MatIconModule } from '@angular/material/icon';
   standalone: true,
   imports: [MatIconModule],
   template: `
-    <div class="relative shadow-neue bg-gray-100 dark:bg-gray-800/50 mt-10">
+    <div class="shadow-neue relative mt-10 bg-gray-100 dark:bg-gray-800/50">
       <div
-        class="mx-auto py-8 px-4 max-w-screen-xl sm:py-16 lg:px-6 space-y-8 md:grid md:grid-cols-3 md:gap-12 md:space-y-0">
+        class="mx-auto max-w-screen-xl space-y-8 px-4 py-8 sm:py-16 md:grid md:grid-cols-3 md:gap-12 md:space-y-0 lg:px-6">
         <div
-          class="max-w-screen-md mb-8 lg:mb-16 py-auto md:flex md:flex-col md:justify-center md:h-full">
+          class="py-auto mb-8 max-w-screen-md md:flex md:h-full md:flex-col md:justify-center lg:mb-16">
           <h2
-            class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+            class="mb-4 text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white">
             Designed for business teams like yours
           </h2>
           <p class="text-gray-500 sm:text-xl dark:text-gray-400">
@@ -21,10 +21,10 @@ import { MatIconModule } from '@angular/material/icon';
           </p>
         </div>
         <div
-          class="space-y-8 md:grid md:grid-cols-2 md:gap-12 md:space-y-0 col-span-2">
+          class="col-span-2 space-y-8 md:grid md:grid-cols-2 md:gap-12 md:space-y-0">
           <div>
             <div
-              class="flex justify-center items-center mb-4 w-10 h-10 rounded-full text-blue-500 dark:text-blue-300 bg-blue-100 lg:h-12 lg:w-12 dark:bg-blue-900">
+              class="mb-4 flex h-10 w-10 items-center justify-center rounded-full bg-blue-100 text-blue-500 lg:h-12 lg:w-12 dark:bg-blue-900 dark:text-blue-300">
               <mat-icon> insert_chart_outlined</mat-icon>
             </div>
             <h3 class="mb-2 text-xl font-bold text-gray-900 dark:text-white">
@@ -38,7 +38,7 @@ import { MatIconModule } from '@angular/material/icon';
           </div>
           <div>
             <div
-              class="flex justify-center items-center mb-4 w-10 h-10 rounded-full text-blue-500 dark:text-blue-300 bg-blue-100 lg:h-12 lg:w-12 dark:bg-blue-900">
+              class="mb-4 flex h-10 w-10 items-center justify-center rounded-full bg-blue-100 text-blue-500 lg:h-12 lg:w-12 dark:bg-blue-900 dark:text-blue-300">
               <mat-icon> account_balance</mat-icon>
             </div>
             <h3 class="mb-2 text-xl font-bold text-gray-900 dark:text-white">
@@ -51,7 +51,7 @@ import { MatIconModule } from '@angular/material/icon';
           </div>
           <div>
             <div
-              class="flex justify-center items-center mb-4 w-10 h-10 rounded-full text-blue-500 dark:text-blue-300 bg-blue-100 lg:h-12 lg:w-12 dark:bg-blue-900">
+              class="mb-4 flex h-10 w-10 items-center justify-center rounded-full bg-blue-100 text-blue-500 lg:h-12 lg:w-12 dark:bg-blue-900 dark:text-blue-300">
               <mat-icon> business_center</mat-icon>
             </div>
             <h3 class="mb-2 text-xl font-bold text-gray-900 dark:text-white">
@@ -64,7 +64,7 @@ import { MatIconModule } from '@angular/material/icon';
           </div>
           <div>
             <div
-              class="flex justify-center items-center mb-4 w-10 h-10 rounded-full text-blue-500 dark:text-blue-300 bg-blue-100 lg:h-12 lg:w-12 dark:bg-blue-900">
+              class="mb-4 flex h-10 w-10 items-center justify-center rounded-full bg-blue-100 text-blue-500 lg:h-12 lg:w-12 dark:bg-blue-900 dark:text-blue-300">
               <mat-icon> attach_money</mat-icon>
             </div>
             <h3 class="mb-2 text-xl font-bold text-gray-900 dark:text-white">

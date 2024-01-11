@@ -22,16 +22,21 @@
 }
 
 .shadow-neue {
-  box-shadow: 16px 16px 48px #d6d6d6, -16px -16px 48px #ffffff;
+  box-shadow:
+    16px 16px 48px #d6d6d6,
+    -16px -16px 48px #ffffff;
 }
 
 @media (prefers-color-scheme: dark) {
   .shadow-neue {
-    box-shadow: 20px 20px 60px #0c111b, -20px -20px 60px #161f33;
+    box-shadow:
+      20px 20px 60px #0c111b,
+      -20px -20px 60px #161f33;
   }
 
   .dark-only-shadow-neue {
-    box-shadow: 20px -20px 60px rgb(17 24 39),
+    box-shadow:
+      20px -20px 60px rgb(17 24 39),
       -20px 20px 60px rgba(3, 7, 18, 0.6) !important;
   }
 }
