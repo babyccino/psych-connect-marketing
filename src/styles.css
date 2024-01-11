@@ -21,27 +21,17 @@
   text-shadow: black 0px 0px 10px;
 }
 
+.shadow-neue {
+  box-shadow: 16px 16px 48px #d6d6d6, -16px -16px 48px #ffffff;
+}
+
 @media (prefers-color-scheme: dark) {
-  body {
-    background-color: rgb(17 24 39);
-  }
-
   .shadow-neue {
+    box-shadow: 20px 20px 60px #0c111b, -20px -20px 60px #161f33;
+  }
+
+  .dark-only-shadow-neue {
     box-shadow: 20px -20px 60px rgb(17 24 39),
-      -20px 20px 60px rgba(3, 7, 18, 0.6);
-  }
-
-  .shadow-neue-inset {
-    background: #111827;
-    box-shadow: inset 13px 13px 14px #0a0e17, inset -13px -13px 14px #182237;
-  }
-  .shadow-neue-inset2 {
-    background: #111827;
-    box-shadow: inset 13px 13px 36px #0b0f19, inset -13px -13px 36px #172135;
-  }
-
-  .shadow-neue-inset3 {
-    background: #1f2937;
-    box-shadow: inset 11px 11px 22px #131921, inset -11px -11px 22px #2b394d;
+      -20px 20px 60px rgba(3, 7, 18, 0.6) !important;
   }
 }

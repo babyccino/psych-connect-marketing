@@ -8,7 +8,7 @@ import { MatIconModule } from '@angular/material/icon';
   imports: [MatIconModule, NgOptimizedImage],
   template: `
     <section class="relative bg-white dark:bg-gray-900 pt-16">
-      <div class="absolute top-0 h-[550px] w-full filter brightness-50">
+      <div class="absolute top-0 h-[550px] w-full filter brightness-[0.35]">
         <img
           class="object-cover"
           ngSrc="/computerUser.jpeg"
@@ -18,16 +18,16 @@ import { MatIconModule } from '@angular/material/icon';
       </div>
       <div class="relative z-10 mt-6 mx-4">
         <h2
-          class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
+          class="mb-4 text-4xl tracking-tight font-extrabold text-center text-white">
           Contact Us
         </h2>
         <p
-          class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-300 sm:text-xl max-w-screen-sm mx-auto text-shadow">
+          class="mb-8 lg:mb-16 font-light text-center text-gray-300 sm:text-xl max-w-screen-sm mx-auto text-shadow">
           Got a technical issue? Want to send feedback about a beta feature?
           Need details about our Business plan? Let us know.
         </p>
         <div
-          class="py-8 px-4 mx-auto max-w-screen-sm shadow-neue dark:bg-gray-800 rounded-xl mt-28">
+          class="py-8 px-4 mx-auto max-w-screen-sm shadow-lg dark-only-shadow-neue bg-gray-100 dark:bg-gray-800 rounded-xl mt-28">
           <form action="#" class="space-y-8">
             <div>
               <label
@@ -75,46 +75,53 @@ import { MatIconModule } from '@angular/material/icon';
           </form>
         </div>
       </div>
-      <div class="sm:grid grid-cols-3 mt-28 max-w-6xl mx-auto mb-28 gap-2">
+      <div
+        class="space-y-12 sm:space-y-0 sm:grid grid-cols-3 mt-28 max-w-6xl mx-auto mb-28 gap-2 px-4 sm:px-0">
         <div class="flex flex-col items-center">
           <span
-            class="flex justify-center items-center dark:bg-gray-800 h-12 w-12 rounded-sm">
-            <mat-icon class="dark:text-gray-400">email</mat-icon>
+            class="flex justify-center items-center bg-gray-100 dark:bg-gray-800 h-12 w-12 rounded-sm">
+            <mat-icon class="dark:text-gray-400 text-gray-700">email</mat-icon>
           </span>
-          <p class="dark:text-white text-xl font-bold mt-4">Email us:</p>
-          <p class="dark:text-gray-400 text-center mt-2">
+          <p class="dark:text-white text-gray-900 text-xl font-bold mt-4">
+            Email us:
+          </p>
+          <p class="dark:text-gray-400 text-gray-500 text-center mt-2">
             Email us for general queries, including marketing and partnership
             opportunities.
           </p>
-          <a href="#" class="mt-4 text-blue-500 hover:underline"
+          <a href="#" class="mt-4 text-blue-500 font-semibold hover:underline"
             >hello&#64;flowbite.com</a
           >
         </div>
         <div class="flex flex-col items-center">
           <span
-            class="flex justify-center items-center dark:bg-gray-800 h-12 w-12 rounded-sm">
-            <mat-icon class="dark:text-gray-400">phone</mat-icon>
+            class="flex justify-center items-center bg-gray-100 dark:bg-gray-800 h-12 w-12 rounded-sm">
+            <mat-icon class="dark:text-gray-400 text-gray-700">phone</mat-icon>
           </span>
-          <p class="dark:text-white text-xl font-bold mt-4">Email us:</p>
-          <p class="dark:text-gray-400 text-center mt-2">
+          <p class="dark:text-white text-gray-900 text-xl font-bold mt-4">
+            Email us:
+          </p>
+          <p class="dark:text-gray-400 text-gray-500 text-center mt-2">
             Email us for general queries, including marketing and partnership
             opportunities.
           </p>
-          <a href="#" class="mt-4 text-blue-500 hover:underline"
+          <a href="#" class="mt-4 text-blue-500 font-semibold hover:underline"
             >hello&#64;flowbite.com</a
           >
         </div>
         <div class="flex flex-col items-center">
           <span
-            class="flex justify-center items-center dark:bg-gray-800 h-12 w-12 rounded-sm">
-            <mat-icon class="dark:text-gray-400">email</mat-icon>
+            class="flex justify-center items-center bg-gray-100 dark:bg-gray-800 h-12 w-12 rounded-sm">
+            <mat-icon class="dark:text-gray-400 text-gray-700">email</mat-icon>
           </span>
-          <p class="dark:text-white text-xl font-bold mt-4">Email us:</p>
-          <p class="dark:text-gray-400 text-center mt-2">
+          <p class="dark:text-white text-gray-900 text-xl font-bold mt-4">
+            Email us:
+          </p>
+          <p class="dark:text-gray-400 text-gray-500 text-center mt-2">
             Email us for general queries, including marketing and partnership
             opportunities.
           </p>
-          <a href="#" class="mt-4 text-blue-500 hover:underline"
+          <a href="#" class="mt-4 text-blue-500 font-semibold hover:underline"
             >hello&#64;flowbite.com</a
           >
         </div>

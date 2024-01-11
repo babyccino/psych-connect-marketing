@@ -10,17 +10,20 @@ import { RouterModule } from '@angular/router';
   template: `
     <footer class="p-4 bg-white sm:p-6 dark:bg-gray-800 shadow-neue mt-8">
       <div class="mx-auto max-w-screen-xl">
-        <div class="md:flex md:justify-between p-2">
-          <div class="">
-            <p class="uppercase font-semibold leading-relaxed">New York</p>
-            <p class="text-gray-400 mt-2">
+        <div class="md:flex md:justify-between p-2 md:space-y-0 space-y-8">
+          <div class="text-gray-600 dark:text-gray-400">
+            <p
+              class="uppercase font-semibold leading-relaxed text-gray-900 dark:text-white">
+              New York
+            </p>
+            <p class="mt-2">
               Huntersville,<br />957 Hill Hills Suite 491, United States
             </p>
-            <p class="text-gray-400 my-2">
+            <p class="my-2">
               <mat-icon class="-mb-1 text-lg">phone</mat-icon> Office: +1 (604)
               970 5725
             </p>
-            <p class="text-gray-400 my-2">
+            <p class="my-2">
               <mat-icon class="-mb-1 text-lg">email</mat-icon> Support:
               company&#64;name.com
             </p>

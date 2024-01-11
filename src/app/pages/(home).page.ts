@@ -22,7 +22,7 @@ import FooterComponent from '../components/footer.component';
   ],
   template: `
     <nav
-      class="bg-white dark:bg-gray-900/70 fixed w-full z-20 top-0 start-0 backdrop-blur-lg">
+      class="bg-white bg-white/70 dark:bg-gray-900/70 fixed w-full z-20 top-0 start-0 backdrop-blur-lg">
       <div
         class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a
@@ -61,7 +61,7 @@ import FooterComponent from '../components/footer.component';
             <li>
               <a
                 [routerLink]="['/']"
-                class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:p-0 "
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 [attr.aria-current]="route() === '/' ? 'page' : undefined"
                 [ngClass]="{'md:text-blue-700 md:dark:text-blue-500' : route() === '/'}">
                 Home
