@@ -1,3 +1,5 @@
+@import '/node_modules/material-design-icons/iconfont/material-icons.css';
+
 /* Tailwind directives  */
 @tailwind base;
 @tailwind components;
@@ -5,14 +7,8 @@
 
 /* You can add global styles to this file, and also import other style files */
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  box-sizing: border-box;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -21,64 +17,31 @@
   -webkit-text-size-adjust: 100%;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+.text-shadow {
+  text-shadow: black 0px 0px 10px;
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-.card {
-  padding: 2em;
-}
-
-.logo {
-  @apply box-content;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: rgb(17 24 39);
   }
-  a:hover {
-    color: #747bff;
+
+  .shadow-neue {
+    box-shadow: 20px -20px 60px rgb(17 24 39),
+      -20px 20px 60px rgba(3, 7, 18, 0.6);
   }
-  button {
-    background-color: #f9f9f9;
+
+  .shadow-neue-inset {
+    background: #111827;
+    box-shadow: inset 13px 13px 14px #0a0e17, inset -13px -13px 14px #182237;
+  }
+  .shadow-neue-inset2 {
+    background: #111827;
+    box-shadow: inset 13px 13px 36px #0b0f19, inset -13px -13px 36px #172135;
+  }
+
+  .shadow-neue-inset3 {
+    background: #1f2937;
+    box-shadow: inset 11px 11px 22px #131921, inset -11px -11px 22px #2b394d;
   }
 }
