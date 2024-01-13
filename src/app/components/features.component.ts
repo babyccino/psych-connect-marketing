@@ -24,7 +24,7 @@ import { MatIconModule } from '@angular/material/icon';
           class="col-span-2 space-y-8 md:grid md:grid-cols-2 md:gap-12 md:space-y-0">
           <div>
             <div
-              class="mb-4 flex h-10 w-10 items-center justify-center rounded-full bg-blue-100 text-blue-500 lg:h-12 lg:w-12 dark:bg-blue-900 dark:text-blue-300">
+              class="bg-primary-100 text-primary-500 dark:bg-primary-900 dark:text-primary-300 mb-4 flex h-10 w-10 items-center justify-center rounded-full lg:h-12 lg:w-12">
               <mat-icon> insert_chart_outlined</mat-icon>
             </div>
             <h3 class="mb-2 text-xl font-bold text-gray-900 dark:text-white">
@@ -38,7 +38,7 @@ import { MatIconModule } from '@angular/material/icon';
           </div>
           <div>
             <div
-              class="mb-4 flex h-10 w-10 items-center justify-center rounded-full bg-blue-100 text-blue-500 lg:h-12 lg:w-12 dark:bg-blue-900 dark:text-blue-300">
+              class="bg-primary-100 text-primary-500 dark:bg-primary-900 dark:text-primary-300 mb-4 flex h-10 w-10 items-center justify-center rounded-full lg:h-12 lg:w-12">
               <mat-icon> account_balance</mat-icon>
             </div>
             <h3 class="mb-2 text-xl font-bold text-gray-900 dark:text-white">
@@ -51,7 +51,7 @@ import { MatIconModule } from '@angular/material/icon';
           </div>
           <div>
             <div
-              class="mb-4 flex h-10 w-10 items-center justify-center rounded-full bg-blue-100 text-blue-500 lg:h-12 lg:w-12 dark:bg-blue-900 dark:text-blue-300">
+              class="bg-primary-100 text-primary-500 dark:bg-primary-900 dark:text-primary-300 mb-4 flex h-10 w-10 items-center justify-center rounded-full lg:h-12 lg:w-12">
               <mat-icon> business_center</mat-icon>
             </div>
             <h3 class="mb-2 text-xl font-bold text-gray-900 dark:text-white">
@@ -64,7 +64,7 @@ import { MatIconModule } from '@angular/material/icon';
           </div>
           <div>
             <div
-              class="mb-4 flex h-10 w-10 items-center justify-center rounded-full bg-blue-100 text-blue-500 lg:h-12 lg:w-12 dark:bg-blue-900 dark:text-blue-300">
+              class="bg-primary-100 text-primary-500 dark:bg-primary-900 dark:text-primary-300 mb-4 flex h-10 w-10 items-center justify-center rounded-full lg:h-12 lg:w-12">
               <mat-icon> attach_money</mat-icon>
             </div>
             <h3 class="mb-2 text-xl font-bold text-gray-900 dark:text-white">

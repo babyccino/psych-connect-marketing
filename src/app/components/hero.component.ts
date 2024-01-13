@@ -21,7 +21,7 @@ import { MatIconModule } from '@angular/material/icon';
         class="mb-8 flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-x-4 sm:space-y-0 lg:mb-16">
         <a
           href="#"
-          class="shadow-neue mr-3 inline-flex items-center justify-center rounded-lg bg-blue-700 px-5 py-3 text-center text-base font-medium text-white hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+          class="shadow-neue bg-primary-700 hover:bg-primary-800 focus:ring-primary-300 dark:focus:ring-primary-900 mr-3 inline-flex items-center justify-center rounded-lg px-5 py-3 text-center text-base font-medium text-white focus:ring-4">
           Get started
           <mat-icon class="-mr-1 ml-2 h-5 w-5"> arrow_forward</mat-icon>
         </a>

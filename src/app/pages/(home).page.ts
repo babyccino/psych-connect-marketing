@@ -40,7 +40,7 @@ import FooterComponent from '../components/footer.component';
         <div class="flex space-x-3 md:order-2 md:space-x-0 rtl:space-x-reverse">
           <button
             type="button"
-            class="shadow-neue rounded-lg bg-blue-700 px-4 py-2 text-center text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            class="shadow-neue bg-primary-700 hover:bg-primary-800 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 rounded-lg px-4 py-2 text-center text-sm font-medium text-white focus:outline-none focus:ring-4">
             Get started
           </button>
           <button
@@ -61,11 +61,12 @@ import FooterComponent from '../components/footer.component';
             <li>
               <a
                 [routerLink]="['/']"
-                class="block rounded px-3 py-2 text-gray-900 hover:bg-gray-100 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:dark:hover:text-blue-500"
-                [attr.aria-current]="route() === '/' ? 'page' : undefined"
                 [ngClass]="{
-                  'md:text-blue-700 md:dark:text-blue-500': route() === '/'
-                }">
+                  'md:text-primary-700 md:dark:text-primary-500':
+                    route() === '/'
+                }"
+                [attr.aria-current]="route() === '/' ? 'page' : undefined"
+                class="md:hover:text-primary-700 md:dark:hover:text-primary-500 block rounded px-3 py-2 text-gray-900 hover:bg-gray-100 md:p-0 md:hover:bg-transparent dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
                 Home
               </a>
             </li>
@@ -73,10 +74,11 @@ import FooterComponent from '../components/footer.component';
               <a
                 [routerLink]="['/about']"
                 [ngClass]="{
-                  'md:text-blue-700 md:dark:text-blue-500': route() === '/about'
+                  'md:text-primary-700 md:dark:text-primary-500':
+                    route() === '/about'
                 }"
                 [attr.aria-current]="route() === '/about' ? 'page' : undefined"
-                class="block rounded px-3 py-2 text-gray-900 hover:bg-gray-100 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:dark:hover:text-blue-500">
+                class="md:hover:text-primary-700 md:dark:hover:text-primary-500 block rounded px-3 py-2 text-gray-900 hover:bg-gray-100 md:p-0 md:hover:bg-transparent dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
                 About
               </a>
             </li>
@@ -84,13 +86,13 @@ import FooterComponent from '../components/footer.component';
               <a
                 [routerLink]="['/services']"
                 [ngClass]="{
-                  'md:text-blue-700 md:dark:text-blue-500':
+                  'md:text-primary-700 md:dark:text-primary-500':
                     route() === '/services'
                 }"
                 [attr.aria-current]="
                   route() === '/services' ? 'page' : undefined
                 "
-                class="block rounded px-3 py-2 text-gray-900 hover:bg-gray-100 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:dark:hover:text-blue-500">
+                class="md:hover:text-primary-700 md:dark:hover:text-primary-500 block rounded px-3 py-2 text-gray-900 hover:bg-gray-100 md:p-0 md:hover:bg-transparent dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
                 Services
               </a>
             </li>
@@ -98,10 +100,11 @@ import FooterComponent from '../components/footer.component';
               <a
                 [routerLink]="['/team']"
                 [ngClass]="{
-                  'md:text-blue-700 md:dark:text-blue-500': route() === '/team'
+                  'md:text-primary-700 md:dark:text-primary-500':
+                    route() === '/team'
                 }"
                 [attr.aria-current]="route() === '/team' ? 'page' : undefined"
-                class="block rounded px-3 py-2 text-gray-900 hover:bg-gray-100 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:dark:hover:text-blue-500">
+                class="md:hover:text-primary-700 md:dark:hover:text-primary-500 block rounded px-3 py-2 text-gray-900 hover:bg-gray-100 md:p-0 md:hover:bg-transparent dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
                 Team
               </a>
             </li>
@@ -109,13 +112,13 @@ import FooterComponent from '../components/footer.component';
               <a
                 [routerLink]="['/contact']"
                 [ngClass]="{
-                  'md:text-blue-700 md:dark:text-blue-500':
+                  'md:text-primary-700 md:dark:text-primary-500':
                     route() === '/contact'
                 }"
                 [attr.aria-current]="
                   route() === '/contact' ? 'page' : undefined
                 "
-                class="block rounded px-3 py-2 text-gray-900 hover:bg-gray-100 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:dark:hover:text-blue-500">
+                class="md:hover:text-primary-700 md:dark:hover:text-primary-500 block rounded px-3 py-2 text-gray-900 hover:bg-gray-100 md:p-0 md:hover:bg-transparent dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
                 Contact
               </a>
             </li>

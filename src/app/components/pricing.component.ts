@@ -85,7 +85,7 @@ import { MatIconModule } from '@angular/material/icon';
           </ul>
           <a
             href="#"
-            class="rounded-lg bg-blue-600 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-blue-700 focus:ring-4 focus:ring-blue-200 dark:text-white dark:focus:ring-blue-900"
+            class="bg-primary-600 hover:bg-primary-700 focus:ring-primary-200 dark:focus:ring-primary-900 rounded-lg px-5 py-2.5 text-center text-sm font-medium text-white focus:ring-4 dark:text-white"
             >Get started</a
           >
         </div>
@@ -157,7 +157,7 @@ import { MatIconModule } from '@angular/material/icon';
           </ul>
           <a
             href="#"
-            class="rounded-lg bg-blue-600 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-blue-700 focus:ring-4 focus:ring-blue-200 dark:text-white dark:focus:ring-blue-900"
+            class="bg-primary-600 hover:bg-primary-700 focus:ring-primary-200 dark:focus:ring-primary-900 rounded-lg px-5 py-2.5 text-center text-sm font-medium text-white focus:ring-4 dark:text-white"
             >Get started</a
           >
         </div>
@@ -228,7 +228,7 @@ import { MatIconModule } from '@angular/material/icon';
           </ul>
           <a
             href="#"
-            class="rounded-lg bg-blue-600 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-blue-700 focus:ring-4 focus:ring-blue-200 dark:text-white dark:focus:ring-blue-900"
+            class="bg-primary-600 hover:bg-primary-700 focus:ring-primary-200 dark:focus:ring-primary-900 rounded-lg px-5 py-2.5 text-center text-sm font-medium text-white focus:ring-4 dark:text-white"
             >Get started</a
           >
         </div>
