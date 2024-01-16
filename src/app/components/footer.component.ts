@@ -8,7 +8,8 @@ import { RouterModule } from '@angular/router';
   standalone: true,
   imports: [MatIconModule, RouterModule, CommonModule],
   template: `
-    <footer class="shadow-neue mt-8 bg-white p-4 sm:p-6 dark:bg-gray-800">
+    <footer
+      class="shadow-neue relative z-20 bg-white p-4 sm:p-6 dark:bg-gray-800">
       <div class="mx-auto max-w-screen-xl">
         <div class="space-y-8 p-2 md:flex md:justify-between md:space-y-0">
           <div class="text-gray-600 dark:text-gray-400">
