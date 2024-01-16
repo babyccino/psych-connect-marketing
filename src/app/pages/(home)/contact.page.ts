@@ -11,7 +11,13 @@ import { MatIconModule } from '@angular/material/icon';
       <div class="absolute top-0 h-[550px] w-full brightness-[0.35] filter">
         <img
           class="object-cover"
-          ngSrc="/computerUser.jpeg"
+          ngSrc="computerUser.webp"
+          srcset="
+            400w:computerUser.webp   400w,
+            800w:computerUser.webp   800w,
+            1200w:computerUser.webp 1200w,
+            1400w:computerUser.webp 1400w
+          "
           alt="lady working on computer"
           fill
           priority />
@@ -38,7 +44,7 @@ import { MatIconModule } from '@angular/material/icon';
               <input
                 type="email"
                 id="email"
-                class="focus:border-primary-500 focus:ring-primary-500 dark:focus:border-primary-500 dark:focus:ring-primary-500 block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 shadow-sm dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:shadow-sm-light"
+                class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 shadow-sm focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:shadow-sm-light dark:focus:border-primary-500 dark:focus:ring-primary-500"
                 placeholder="name@flowbite.com"
                 required />
             </div>
@@ -51,7 +57,7 @@ import { MatIconModule } from '@angular/material/icon';
               <input
                 type="text"
                 id="subject"
-                class="focus:border-primary-500 focus:ring-primary-500 dark:focus:border-primary-500 dark:focus:ring-primary-500 block w-full rounded-lg border border-gray-300 bg-gray-50 p-3 text-sm text-gray-900 shadow-sm dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:shadow-sm-light"
+                class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-3 text-sm text-gray-900 shadow-sm focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:shadow-sm-light dark:focus:border-primary-500 dark:focus:ring-primary-500"
                 placeholder="Let us know how we can help you"
                 required />
             </div>
@@ -64,12 +70,12 @@ import { MatIconModule } from '@angular/material/icon';
               <textarea
                 id="message"
                 rows="6"
-                class="focus:border-primary-500 focus:ring-primary-500 dark:focus:border-primary-500 dark:focus:ring-primary-500 block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 shadow-sm dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400"
+                class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 shadow-sm focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-primary-500 dark:focus:ring-primary-500"
                 placeholder="Leave a comment..."></textarea>
             </div>
             <button
               type="submit"
-              class="bg-primary-700 hover:bg-primary-800 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 rounded-lg px-5 py-3 text-center text-sm font-medium text-white focus:outline-none focus:ring-4 sm:w-fit">
+              class="rounded-lg bg-primary-700 px-5 py-3 text-center text-sm font-medium text-white hover:bg-primary-800 focus:outline-none focus:ring-4 focus:ring-primary-300 sm:w-fit dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
               Send message
             </button>
           </form>
@@ -91,7 +97,7 @@ import { MatIconModule } from '@angular/material/icon';
           </p>
           <a
             href="#"
-            class="text-primary-500 mt-4 font-semibold hover:underline"
+            class="mt-4 font-semibold text-primary-500 hover:underline"
             >hello&#64;flowbite.com</a
           >
         </div>
@@ -109,7 +115,7 @@ import { MatIconModule } from '@angular/material/icon';
           </p>
           <a
             href="#"
-            class="text-primary-500 mt-4 font-semibold hover:underline"
+            class="mt-4 font-semibold text-primary-500 hover:underline"
             >hello&#64;flowbite.com</a
           >
         </div>
@@ -127,7 +133,7 @@ import { MatIconModule } from '@angular/material/icon';
           </p>
           <a
             href="#"
-            class="text-primary-500 mt-4 font-semibold hover:underline"
+            class="mt-4 font-semibold text-primary-500 hover:underline"
             >hello&#64;flowbite.com</a
           >
         </div>
