@@ -11,12 +11,12 @@ import { MatIconModule } from '@angular/material/icon';
       <div class="absolute top-0 h-[550px] w-full brightness-[0.35] filter">
         <img
           class="object-cover"
-          ngSrc="computerUser.webp"
+          ngSrc="images/computerUser.webp"
           srcset="
-            400w:computerUser.webp   400w,
-            800w:computerUser.webp   800w,
-            1200w:computerUser.webp 1200w,
-            1400w:computerUser.webp 1400w
+            images/400w:computerUser.webp   400w,
+            images/800w:computerUser.webp   800w,
+            images/1200w:computerUser.webp 1200w,
+            images/1400w:computerUser.webp 1400w
           "
           alt="lady working on computer"
           fill

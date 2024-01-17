@@ -61,12 +61,12 @@ import { MatIconModule } from '@angular/material/icon';
             class="relative hidden h-[35rem] w-full overflow-hidden sm:block">
             <img
               class="object-cover brightness-75"
-              ngSrc="policeWorking.webp"
+              ngSrc="images/policeWorking.webp"
               srcset="
-                400w:policeWorking.webp   400w,
-                800w:policeWorking.webp   800w,
-                1200w:policeWorking.webp 1200w,
-                1400w:policeWorking.webp 1400w
+                images/400w:policeWorking.webp   400w,
+                images/800w:policeWorking.webp   800w,
+                images/1200w:policeWorking.webp 1200w,
+                images/1400w:policeWorking.webp 1400w
               "
               alt="police working"
               fill
@@ -191,12 +191,12 @@ import { MatIconModule } from '@angular/material/icon';
             class="relative hidden h-[35rem] w-full overflow-hidden sm:block">
             <img
               class="object-cover brightness-75"
-              ngSrc="policeWorking.webp"
+              ngSrc="images/policeWorking.webp"
               srcset="
-                400w:policeWorking.webp   400w,
-                800w:policeWorking.webp   800w,
-                1200w:policeWorking.webp 1200w,
-                1400w:policeWorking.webp 1400w
+                images/400w:policeWorking.webp   400w,
+                images/800w:policeWorking.webp   800w,
+                images/1200w:policeWorking.webp 1200w,
+                images/1400w:policeWorking.webp 1400w
               "
               alt="police working"
               fill
